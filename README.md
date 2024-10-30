@@ -43,7 +43,7 @@ For a detailed project report, please refer to the [Project Report](Azure_Projec
 
 ## **Architecture Diagram**
 
-![Network Architecture Diagram](images/Network_Diagram.png)
+![Network Architecture Diagram](Network_Diagram.png)
 
 *The diagram illustrates the Azure Virtual Network, subnets, Jump Box, web servers, load balancer, and their interconnections.*
 
