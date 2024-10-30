@@ -10,11 +10,8 @@ In this project, I designed and implemented a secure, cloud-based web applicatio
   - [Objectives](#objectives)
   - [Tools and Technologies](#tools-and-technologies)
 - [Architecture Diagram](#architecture-diagram)
-- [Quick Start Guide](#quick-start-guide)
-- [Results and Highlights](#results-and-highlights)
+- [Results and Findings](#results-and-findings)
 - [Conclusion and Reflections](#conclusion-and-reflections)
-- [Contact Information](#contact-information)
-- [License](#license)
 
 ## **Project Overview**
 
@@ -49,3 +46,19 @@ For a detailed project report, please refer to the [Project Report](docs/Project
 ![Network Architecture Diagram](images/Network_Diagram.png)
 
 *The diagram illustrates the Azure Virtual Network, subnets, Jump Box, web servers, load balancer, and their interconnections.*
+
+## **Results and Findings**
+
+- **High Availability and Redundancy**: The implementation of an Azure Load Balancer alongside multiple web servers ensured continuous availability of the web application. Even during simulated failures, the load balancer successfully redirected traffic to healthy servers, demonstrating effective redundancy and failover capabilities.
+
+- **Enhanced Security Posture**: By employing Network Security Groups (NSGs) and a Jump Box, the network was secured against unauthorized access. The Jump Box acted as a secure gateway, limiting exposure of the virtual machines to the internet. NSGs enforced strict traffic rules, reducing the attack surface and protecting the infrastructure from potential threats.
+
+- **Automation and Efficiency**: Utilizing Ansible for automation streamlined the deployment and configuration processes. This approach minimized manual errors and ensured consistency across the environment, allowing for rapid scaling and easy replication of the infrastructure.
+
+- **Successful Security Testing**: Penetration testing and vulnerability assessments were conducted to evaluate the security of the setup. The tests confirmed that the implemented security measures effectively protected the infrastructure against common threats, validating the robustness of the security configurations.
+
+## **Conclusion and Reflections**
+
+This project was a comprehensive exercise in designing and deploying a secure, scalable, and highly available web application infrastructure on Microsoft Azure. It reinforced my understanding of cloud security principles and highlighted the critical role of automation in modern IT environments. Implementing robust security measures, such as Network Security Groups and a Jump Box, emphasized the necessity of defense-in-depth strategies. The experience also underscored the value of redundancy and load balancing in achieving high availability. Overall, this project enhanced my skills in cloud computing, network security, and automation, aligning well with the requirements of a cybersecurity professional.
+
+---
