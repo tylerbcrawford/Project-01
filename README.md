@@ -49,12 +49,3 @@ For a detailed project report, please refer to the [Project Report](docs/Project
 ![Network Architecture Diagram](images/Network_Diagram.png)
 
 *The diagram illustrates the Azure Virtual Network, subnets, Jump Box, web servers, load balancer, and their interconnections.*
-
-## **Quick Start Guide**
-
-To replicate or utilize this project:
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/azure-cloud-security.git
