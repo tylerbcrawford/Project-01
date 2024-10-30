@@ -39,7 +39,7 @@ The core objectives of this project were:
 - **Azure Load Balancer**
 - **Damn Vulnerable Web Application (DVWA)**
 
-For a detailed project report, please refer to the [Project Report](docs/Project_Report.md).
+For a detailed project report, please refer to the [Project Report](Azure_Project_Report.pdf).
 
 ## **Architecture Diagram**
 
